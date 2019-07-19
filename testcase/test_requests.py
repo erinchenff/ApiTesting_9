@@ -13,5 +13,4 @@ class TestRequests():
         logging.info(r)
         logging.info(r.text)
         logging.info(r.json())
-        logging.info('------')
         logging.info(json.dumps(r.json(),indent=2))
